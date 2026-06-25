@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>BARBERSHOP</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+
+<div class="container">
+
+<a class="navbar-brand" href="#">💈 BARBERSHOP FLEX</a>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+<li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+<li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+<li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+
+</ul>
+
+</div>
+</div>
+</nav>
+</header>
+
+
+<!-- HERO / BANNER -->
+<section id="inicio" class="hero">
+
+<div class="container hero-conteudo">
+
+<p class="subtitulo">BARBEARIA PREMIUM</p>
+
+<h1>BARBERSHOP <span>FLEX</span></h1>
+
+<p class="descricao">
+Seu estilo começa aqui. Cortes modernos, barba e atendimento premium.
+</p>
+
+<div class="botoes">
+<button onclick="agendar()" class="btn btn-success">Agendar horário</button>
+<a href="#servicos" class="btn btn-outline-light">Ver serviços</a>
+</div>
+
+<div class="estatisticas">
+<div>
+<h2>+450</h2>
+<p>Clientes</p>
+</div>
+
+<div>
+<h2>5★</h2>
+<p>Avaliações</p>
+</div>
+
+<div>
+<h2>2018</h2>
+<p>Fundada</p>
+</div>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- SOBRE -->
+<section id="sobre" class="container py-5">
+
+<div class="row align-items-center">
+
+<div class="col-md-6">
+<img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=800"
+class="img-fluid rounded" alt="Barbeiro">
+</div>
+
+<div class="col-md-6">
+<h2>Sobre a Barbearia</h2>
+<p>BARBERSHOP FLEX oferece cortes modernos, barba e atendimento premium.</p>
+<p>Nosso objetivo é elevar seu estilo e confiança.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- SERVIÇOS -->
+<section id="servicos">
+
+<div class="container">
+
+<header class="text-center mb-5">
+<h2>Nossos Serviços</h2>
+</header>
+
+<div class="row">
+
+<div class="col-md-4">
+<div class="card">
+<img src="/img/cortes-de-cabelo-masculino-liso-para-2020-l-por-juan-alves-homens-que-se-cuidam.jpg" class="card-img-top">
+<div class="card-body">
+<h3>Corte Masculino</h3>
+<p>Cortes modernos e tradicionais.</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card">
+<img src="img/barba.jpg" class="card-img-top">
+<div class="card-body">
+<h3>Barba</h3>
+<p>Acabamento e modelagem profissional.</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card">
+<img src="/img/estilos-de-barba-para-2019-barba-preenchida-com-degradecc82-homens-que-se-cuidam-por-juan-alves-b.png" class="card-img-top">
+<div class="card-body">
+<h3>Combo VIP</h3>
+<p>Corte + barba com desconto especial.</p>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CONTATO -->
+<section id="contato">
+
+<div class="container text-center">
+
+<h2>Contato</h2>
+
+<address>
+📞 (00) 99999-9999 <br>
+📍 Rua Exemplo, 100
+</address>
+
+<p id="horario"></p>
+
+<button class="btn btn-success" onclick="mostrarHorario()">
+Mostrar horário
+</button>
+
+</div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+<p>© 2026 Barbearia FLEX</p>
+</footer>
+
+
+<script src="js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
